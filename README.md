@@ -1,6 +1,6 @@
 # Hi, welcome!
 
-**PhD Mathematician | Data Analytics & Data Engineering**
+**PhD Mathematician | Data Analytics & Data Science**
 
 I am a mathematician with a PhD from **RWTH Aachen University**, transitioning from academic research into data. I enjoy turning complex problems and raw data into structured, meaningful insights.
 

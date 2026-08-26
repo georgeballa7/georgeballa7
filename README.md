@@ -1,4 +1,4 @@
-# Hi, I'm George 👋
+# Hi, welcome 👋
 
 **PhD Mathematician | Data Analytics | Data Science | Data Engineering**
 

@@ -1,6 +1,6 @@
 # Hi, welcome 👋
 
-**PhD Mathematician | Data Analytics | Data Science | Data Engineering**
+**PhD Mathematician | Data Analytics · Data Science · Data Engineering | Python · SQL · Spark · ML**
 
 I am a mathematician with a PhD from RWTH Aachen University and several years
 of experience in academic research. I now apply my analytical and quantitative

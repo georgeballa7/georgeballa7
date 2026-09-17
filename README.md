@@ -12,6 +12,17 @@ and cloud deployment.
 
 ## 🚀 Featured Projects
 
+### ⚡ European Energy Data Analytics
+End-to-end **ELT & Analytics Pipeline** for European electricity data.
+
+- Built an automated monthly pipeline from the **Ember REST API → AWS S3 → Glue → Athena → Power BI**
+- Orchestrated incremental **Bronze / Silver / Gold** processing with **Apache Airflow & Docker**
+- Implemented automated **data quality checks** and a dimensional Gold data model
+- Developed **SQL analytics and Power BI dashboards** for energy mix, electricity demand, CO₂ emissions, carbon intensity, and renewable capacity
+- Tech: **Python · pandas · SQL · Airflow · Docker · AWS S3 · Glue · Athena · Parquet · Power BI**
+
+🔗 [View Project](https://github.com/georgeballa7/EuropeanEnergyDataAnalytics)
+
 ### 🚕 NYC Taxi Demand Forecasting & Business Analytics
 
 An independent end-to-end data project for analyzing and forecasting NYC

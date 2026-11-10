@@ -28,34 +28,29 @@ and cloud deployment.
 
 ### 🚕 NYC Taxi Demand Forecasting & Business Analytics
 
-An independent end-to-end data project for analyzing and forecasting NYC
-Yellow Taxi demand while connecting operational demand patterns with
-commercial insights.
+An independent end-to-end data engineering, machine learning, and business analytics project for analyzing and forecasting NYC Yellow Taxi demand while connecting operational demand patterns with commercial insights.
 
-The project covers the full path from automated monthly data ingestion and
-large-scale processing to machine learning, API-based serving, interactive
-analytics, orchestration, testing, and cloud deployment.
+The project covers the full lifecycle from automated monthly data ingestion and large-scale processing to machine learning, API-based serving, interactive analytics, workflow orchestration, and automated testing. The application runs locally with PostgreSQL, FastAPI, and Streamlit.
 
 **Highlights**
-- Automated monthly TLC data ingestion and pipeline execution with Apache Airflow
-- Processed, cleaned, and aggregated large-scale NYC Yellow Taxi data with PySpark
-- Designed analytical PostgreSQL schemas for demand, trip, and model-serving data
-- Built separate historical evaluation and future forecasting ML workflows
+- Automated monthly TLC data ingestion and pipeline orchestration with Apache Airflow
+- Processed, cleaned, and aggregated large-scale NYC Yellow Taxi data using PySpark
+- Designed and maintained analytical PostgreSQL schemas for demand, trip, and model-serving data
+- Implemented incremental monthly data processing and database updates
+- Built separate historical model evaluation and future-demand forecasting workflows using Spark ML
 - Implemented leakage-safe feature engineering for future forecasting
 - Compared multiple forecasting approaches using rolling temporal backtests
-- Added automatic production-model selection based on MAE with RMSE as tie-breaker
-- Published model metrics and forecast profiles to PostgreSQL / Supabase
-- Developed a FastAPI serving layer for analytics and prediction requests
-- Built a multi-page Streamlit application for exploration, model evaluation,
-  future-demand forecasting, business & strategic insights and PDF report generation
-- Deployed the production application using Supabase PostgreSQL, Render, and Streamlit Community Cloud
+- Automated production-model selection based on MAE, with RMSE as a tie-breaker
+- Published model metrics, historical predictions, and future forecast profiles to local PostgreSQL
+- Developed a FastAPI backend for analytics and forecast-serving requests
+- Built a multi-page Streamlit application for demand exploration, model evaluation, future-demand forecasting, business and strategic insights, and PDF report generation
+- Containerized Apache Airflow with Docker Compose and integrated it with the local PostgreSQL analytics database
+- Implemented automated testing with pytest and GitHub Actions
 
 **Tech Stack:**  
-Python · PySpark · Apache Spark · Spark ML · Pandas · PostgreSQL · Supabase ·  
-Apache Airflow · Docker · FastAPI · Streamlit · Plotly · SQLAlchemy
+Python · PySpark · Apache Spark · Spark ML · Pandas · PostgreSQL · Apache Airflow · Docker · FastAPI · Streamlit · Plotly · SQLAlchemy · pytest · GitHub Actions
 
-🌐 [Live Application](https://george-nyc-taxi-analytics.streamlit.app/)  
-💻 [Repository](https://github.com/georgeballa7/NycTaxiDemandForecasting)
+💻 [GitHub Repository](https://github.com/georgeballa7/NycTaxiDemandForecasting)
 
 
 ### 🏭 Machine Reporting & Analytics — DSI Capstone Project
